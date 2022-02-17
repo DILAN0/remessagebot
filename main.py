@@ -12,9 +12,9 @@ token = key
 @bot.event
 async def on_message(message):
 
-    if message.channel.id == 792491223495606352:
+    if message.channel.id == "id":
         otvet = message.content
-        channel = bot.get_channel(712296555985764435)
+        channel = bot.get_channel("id")
         await channel.send(otvet)
     else:
         pass
